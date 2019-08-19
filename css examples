@@ -1,0 +1,33 @@
+/*
+Copy and paste these codes to your atom and play around with it!!
+Make sure your html file and css file is in the same location. 
+(I reommend putting both files at the desktop screen.)
+*/
+
+.paragraph{
+
+  /* This will change your background color.*/
+  background-color: #D8F6CE;
+  
+  /* This will create a border. Try other styles: dotted, dashed, solid, double, groove, ridge, inset, and outset.
+  Notice that groove, rigde, inset, and outset styles are 3D and can be best seen with some colors. */
+  border-style: solid;
+  
+  border-color:grey;
+  /*This will round your edges of your border.*/
+  border-radius: 10px;
+  
+  /*padding is space between the border and the letter inside the border
+  padding: top right bottom left    padding: 10px 24px 35px 45px 
+  padding: top right+left bottom    padding: 10px 24px 35px 
+  padding: top+bottom right+left    padding: 10px 24px 
+  padding: all side                 padding: 10px
+  */ 
+  padding: 10px 24px 35px 45px;
+  
+  font-size: 20px;
+  
+  /* Three different kinds of fonts are given in case the user doesnt have the font type in their computer. */
+  font-family: "Arial", Times, serif;
+
+}
