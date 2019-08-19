@@ -1,15 +1,46 @@
+
+<!-- Hightlight from "<!DOCTYPE html>" to "</html>" then copy and paste to your atom. -->
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
 <title>This is the title.</title>
+
+<!--link tag will connect your html with css file. -->
+<link rel="stylesheet" href="create.account.css">
 </head>
 
 <body>
-<h1> This is an example of a heading. </h1>
-<h2> This is heading2. </h2>
-<h3> This is heading3. </h3>
-<h4> This is heading4. </h4>
-<h5> This is heading5. </h5>
-<h6> This is heading6. </h6>
+<h1 class="header1"> This is an example of a heading. </h1>
+
+<p class="paragraph">This is an <strike>real</strike> <em>example</em> <strong>paragraph</strong> with random 
+<mark>details and words</mark> to test <sub>some</sub> of the <sup>tags</sup> we can use to show what we can do to decorate 
+text in html. <strong>DON'T FORGET</strong> about the class element to refer to the css page.</p>
+
+
+<!-- You can replace "CLICK HERE" letters with the img tag to use pictures as links. -->
+<img src="filename.jpg" alt="make sure the name of the picture matches the src file name">
+<a href="http://www.google.com"> CLICK HERE </a>
+
+
+
+<!-- These are two types of lists -->
+
+<!-- try different styles:"disc","circle","square" -->
+<ul class="unlisted" style="list-style-type: disc;">
+    <li>orange</li>
+    <li>apple</li>
+    <li>pineapple</li>
+  </ul>
+
+<!-- Try different types:"1","a","A","i","I" -->
+ <ol class="listed" type="1">
+   <li>wake up</li>
+   <li>brush teeth</li>
+   <li>eat breakfast</li>
+ </ol>
+
 </body>
 </html>
